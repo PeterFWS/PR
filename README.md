@@ -3,7 +3,7 @@
 # Content OverView
 
 
-# CHAP1: Introduction
+## CHAP1: Introduction
 • What is Pattern Recognition?
 	▪ Aims of Image Analysis
 	▪ Image analysis versus other techniques
