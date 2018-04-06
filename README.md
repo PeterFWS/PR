@@ -1,5 +1,5 @@
 # PR
-# lecture note for Pattern Recgonition
+## lecture note for Pattern Recgonition
 # Content OverView
 
 
@@ -39,9 +39,9 @@
 • Overview of lectures
 
 
-# CHAP2: Human Visual System
+## CHAP2: Human Visual System
 
-# CHAP3: Image Acquisition and Preprocessing
+## CHAP3: Image Acquisition and Preprocessing
 • Image Acquisition
 	▪ Resolution in remote sensing
 		○ Spatial resolution
@@ -79,7 +79,7 @@
 		-> approximated by the difference of two low-pass filters with Gaussians of different sigma
 
 
-# CHAP4: Scale Space
+## CHAP4: Scale Space
 • Introduction
 • Linear Scale Space
 	▪ Convolution with Gaussian kernel
@@ -94,7 +94,7 @@
 	▪ Normalization of scale
 -> SIFT (Search for characteristic scale, coincides with maximum response of blob detector)
 	
-# CHAP5: Segmentation
+## CHAP5: Segmentation
 • Segmentation of points
 	▪ Harris Operator
 	▪ Scale Invariant Feature Transform (SIFT)
@@ -117,7 +117,7 @@
 	▪ Graph-based Approaches
 	▪ Normalized Cuts
 
-# CHAP6: Features
+## CHAP6: Features
 • Radiometric features: for pixels or segments
 	▪ Densimetric features (probability density functions)
 		○ Histogram
@@ -146,7 +146,7 @@
 		○ Fill factor
 • Scaling of Features
 
-# CHAP7: Models
+## CHAP7: Models
 • Models in image interpretation
 • Object model
 	▪ Wireframe model
@@ -170,7 +170,7 @@
 	▪ Representation by aspect graphs
 
 
-# CHAP8: Representation and Application of Knowledge
+## CHAP8: Representation and Application of Knowledge
 • Introduction
 	▪ Declarative formulation
 	▪ Procedural formulation
@@ -181,7 +181,7 @@
 • Frames
 • Semantic Networks
 
-# CHAP9: Overview of statistical Methods
+## CHAP9: Overview of statistical Methods
 • Statistical methods in pattern recognition and image analysis
 • Tasks and solution strategies
 • The feature space
@@ -204,7 +204,7 @@
 		○ Parametric techniques
 		○ Non-parametric techniques
 		
-# CHAP10: Bayesian Classification
+## CHAP10: Bayesian Classification
 (Probabilistic approach & Generative approach)
 • Theorem of Bayes
 	▪ Meaning of the terms
@@ -224,7 +224,7 @@
 			§ Gaussian mixture model
 • Modelling of the prior probability P(C)
 
-# CHAP11: Probabilistic Discriminative Classifiers
+## CHAP11: Probabilistic Discriminative Classifiers
 (Probabilistic approach & Discriminative methods)
 • Generative vs. discriminative classifiers
 	▪ Discriminative classifiers direct modelling of P(C|x)
@@ -245,7 +245,7 @@
 • Training
 • Multi-class Problems
 
-# CHAP12: Non-probabilistic Discriminative Classifiers
+## CHAP12: Non-probabilistic Discriminative Classifiers
 • Decision trees
 	▪ Binary Tree
 	▪ CART (Classification and Regression Trees)
@@ -262,9 +262,9 @@
 	▪ Choice of hyper-parameters / multi-class problem
 • Neural networks
 
-# Chapter 13: Convolutional Neural Networks
+## Chapter 13: Convolutional Neural Networks
 
-# Chapter 14: Graphical Methods
+## Chapter 14: Graphical Methods
 
 
 
