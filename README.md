@@ -1,10 +1,10 @@
 # PR
-## lecture note for Pattern Recgonition
-# Content OverView
+lecture note for Pattern Recgonition
+## Content OverView
 
 
 ## CHAP1: Introduction
-• What is Pattern Recognition?
+### What is Pattern Recognition?
 	▪ Aims of Image Analysis
 	▪ Image analysis versus other techniques
 	▪ Differences between images and maps
