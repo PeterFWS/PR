@@ -11,7 +11,7 @@ lecture note for Pattern Recgonition
 	▪ Definition of image analysis
 	▪ GIS objects derived from digital images
 	▪ Components of image analysis
-• Strategies of image analysis
+### Strategies of image analysis
 	▪ Model-based methods 
 		○ Level model of model-based image analysis
 			§ Image acquisition
@@ -29,26 +29,26 @@ lecture note for Pattern Recgonition
 			§ Application of statistical model
 		○ From images to features
 		○ Supervised classification: Training
-• Basic approaches of image analysis
+### Basic approaches of image analysis
 	▪ Semi-automated approach
 	▪ Automated approach
 		○ model-based image analysis
 		○ statistical method
 	▪ Neuronal Nets
-• Challenges
-• Overview of lectures
+### Challenges
+### Overview of lectures
 
 
 ## CHAP2: Human Visual System
 
 ## CHAP3: Image Acquisition and Preprocessing
-• Image Acquisition
+### Image Acquisition
 	▪ Resolution in remote sensing
 		○ Spatial resolution
 		○ Spectral resolution
 		○ Temporal resolution
 		○ Radiometric resolution
-• Preprocessing
+### Preprocessing
 	▪ Image enhancement
 		○ point operations
 		○ Local filter operation
@@ -62,7 +62,7 @@ lecture note for Pattern Recgonition
 				□ Rank filter
 				-> Minimum/Maximum/Median filter
 	▪ Image restauration
-• Calculation of derivation
+### Calculation of derivation
 	▪ High pass filters: Edge detection
 		○ Gradient operator (1st Derivation)
 			§ Gradient based edge detection
@@ -80,12 +80,12 @@ lecture note for Pattern Recgonition
 
 
 ## CHAP4: Scale Space
-• Introduction
-• Linear Scale Space
+### Introduction
+### Linear Scale Space
 	▪ Convolution with Gaussian kernel
-• Scale Space Events
+### Scale Space Events
 	▪ Blobs
-• Blob Detection
+### Blob Detection
 	▪ 2D, Laplacian of Gaussian (LoG)
 	-> Rotationally symmetric blob detector
 	▪ Problem?
@@ -95,15 +95,15 @@ lecture note for Pattern Recgonition
 -> SIFT (Search for characteristic scale, coincides with maximum response of blob detector)
 	
 ## CHAP5: Segmentation
-• Segmentation of points
+### Segmentation of points
 	▪ Harris Operator
 	▪ Scale Invariant Feature Transform (SIFT)
-• Segmentation of Edges and Lines
+### Segmentation of Edges and Lines
 	▪ Gradient and Laplacian Operators
 	▪ Edge Thinning and Location Determination
 	▪ Contour Tracing
 	▪ Hough Transform
-• Segmentation of Regions
+### Segmentation of Regions
 	▪ Point-based Approaches
 		○ Thresholds derived by Histogram Analysis
 	▪ Clustering Approaches
@@ -118,7 +118,7 @@ lecture note for Pattern Recgonition
 	▪ Normalized Cuts
 
 ## CHAP6: Features
-• Radiometric features: for pixels or segments
+### Radiometric features: for pixels or segments
 	▪ Densimetric features (probability density functions)
 		○ Histogram
 		○ Mean
@@ -136,7 +136,7 @@ lecture note for Pattern Recgonition
 	▪ Structural Features
 		○ Local histogram of gradient
 		○ HOG features
-• Geometric Features: only for segments
+### Geometric Features: only for segments
 	▪ Area
 	▪ Perimeter
 	▪ Form factors
@@ -144,11 +144,11 @@ lecture note for Pattern Recgonition
 	▪ Polar distance
 	▪ Minimum bounding rectangle (MBR)
 		○ Fill factor
-• Scaling of Features
+### Scaling of Features
 
 ## CHAP7: Models
-• Models in image interpretation
-• Object model
+### Models in image interpretation
+### Object model
 	▪ Wireframe model
 	▪ Boundary Models
 	▪ Half-winged edge model
@@ -163,29 +163,29 @@ lecture note for Pattern Recgonition
 			§ Boundary Models!
 			§ Constructive-Solid-Geometry , CSG
 	▪ others
-• Sensor model
+### Sensor model
 	▪ Sensor properties
 	▪ Calibration
-• Image model
+### Image model
 	▪ Representation by aspect graphs
 
 
 ## CHAP8: Representation and Application of Knowledge
-• Introduction
+### Introduction
 	▪ Declarative formulation
 	▪ Procedural formulation
-• Algorithms and Parameters
-• Predicate Logic
-• Grammars
-• Production Systems
-• Frames
-• Semantic Networks
+### Algorithms and Parameters
+### Predicate Logic
+### Grammars
+### Production Systems
+### Frames
+### Semantic Networks
 
 ## CHAP9: Overview of statistical Methods
-• Statistical methods in pattern recognition and image analysis
-• Tasks and solution strategies
-• The feature space
-• Taxonomy of statistical methods
+### Statistical methods in pattern recognition and image analysis
+### Tasks and solution strategies
+### The feature space
+### Taxonomy of statistical methods
 	▪ According to the image primitives that are classified
 		○ Pixel-based classification
 		○ Segment-based classification (object-based classification)
@@ -206,11 +206,11 @@ lecture note for Pattern Recgonition
 		
 ## CHAP10: Bayesian Classification
 (Probabilistic approach & Generative approach)
-• Theorem of Bayes
+### Theorem of Bayes
 	▪ Meaning of the terms
 	▪ Workflow of Bayesian classification
 	▪ Training
-• Modelling of the likelihood function P(x|C)
+### Modelling of the likelihood function P(x|C)
 	▪ Non-parametric techniques
 	(Cross-Validation to choose parameters)
 		○ Histograms
@@ -222,45 +222,45 @@ lecture note for Pattern Recgonition
 		○ Continuous features
 			§ Normal distribution
 			§ Gaussian mixture model
-• Modelling of the prior probability P(C)
+### Modelling of the prior probability P(C)
 
 ## CHAP11: Probabilistic Discriminative Classifiers
 (Probabilistic approach & Discriminative methods)
-• Generative vs. discriminative classifiers
+### Generative vs. discriminative classifiers
 	▪ Discriminative classifiers direct modelling of P(C|x)
 	▪ Probabilistic discriminative classifiers
 		○ Logistic Regression
 		○ Generalized linear models
 	▪ Non-probabilistic discriminative classifiers
-• Linear Discriminant Function
+### Linear Discriminant Function
 	▪ Overfitting problem
 	▪ Regularization
-• Logistic Regression
+### Logistic Regression
 	▪ Logistic sigmoid function
 	▪ Decision boundary
 	▪ Geometrical interpretation
-• Generalized Linear Models (when data not linearly separable)
+### Generalized Linear Models (when data not linearly separable)
 	▪ Feature space transformations
 	▪ Generalized linear models
-• Training
-• Multi-class Problems
+### Training
+### Multi-class Problems
 
 ## CHAP12: Non-probabilistic Discriminative Classifiers
-• Decision trees
+### Decision trees
 	▪ Binary Tree
 	▪ CART (Classification and Regression Trees)
-• Bootstrapping
-• Random forests (Bootstrapping for CART)
-• Boosting
+### Bootstrapping
+### Random forests (Bootstrapping for CART)
+### Boosting
 	▪ Application: Face detection
-• Support vector machines
+### Support vector machines
 	▪ Basic idea
 	▪ Linearly separable data
 	▪ Non-linear case
 		○ Separate in higher dimensional feature space
 	▪ Accept (a few) misclassification errors
 	▪ Choice of hyper-parameters / multi-class problem
-• Neural networks
+### Neural networks
 
 ## Chapter 13: Convolutional Neural Networks
 
