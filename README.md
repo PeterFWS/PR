@@ -203,16 +203,11 @@ CHAP9: Overview of statistical Methods
 			§ Generative methods
 			§ Discriminative methods
 		○ Non-probabilistic approach
-		
-• 
-	
+
 	▪ According to the models used in probabilistic methods
 		○ Parametric techniques
 		○ Non-parametric techniques
 		
-• 
-
-
 CHAP10: Bayesian Classification
 (Probabilistic approach & Generative approach)
 • Theorem of Bayes
