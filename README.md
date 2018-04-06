@@ -92,7 +92,7 @@ lecture note for Pattern Recgonition
 	-> The stronger the smoothing, the flatter the resulting curve
 	    e.g. 1. derivation of a Gaussian curve, For rising sigma the integral of the area under curve becomes smaller
 	▪ Normalization of scale
--> SIFT (Search for characteristic scale, coincides with maximum response of blob detector)
+	▪ SIFT (Search for characteristic scale, coincides with maximum response of blob detector)
 	
 ## CHAP5: Segmentation
 ### Segmentation of points
